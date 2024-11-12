@@ -37,7 +37,7 @@ OBJECT_SAMPLE obj = {
 /* ================= main() =================== */
 int main(void) {
     srand((unsigned int)time(NULL));
-
+//없앨 거
     init();
     intro();
     display(resource, map, cursor);  // [MODIFIED] Added arguments to match updated display() function signature
